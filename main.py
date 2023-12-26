@@ -11,3 +11,8 @@ def read_root():
 @app.get("/cal")  # 指定 api 路徑 (get方法)
 def res():
     return {"res": 12345}
+
+
+@app.get("/test")  # 指定 api 路徑 (get方法)
+def res():
+    return {"test": "test"}
